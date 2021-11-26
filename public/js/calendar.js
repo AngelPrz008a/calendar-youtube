@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
       //mostrar eventos
-      events: 'http://127.0.0.1:8000/evento/mostrar',
+      events: baseUrl+'evento/mostrar',
       /*eventSources:{
           url:baseUrl+'/evento/mostrar',
           method:'POST',
